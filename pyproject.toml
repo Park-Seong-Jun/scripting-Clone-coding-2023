@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "scripting"
+version = "0.1.0"
+description = "with nomadcoder"
+authors = ["Seongjun Park <pasuju1021@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+selenium = "^4.8.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
